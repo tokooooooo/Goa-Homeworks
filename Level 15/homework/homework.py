@@ -1,13 +1,13 @@
 print(True or False)
-print(36>12 and 59624<1000)
+print(36 > 12 and 59624 < 1000)
 print(False and True)
 print(False or False)
 print(30>13 and 305>1)
 print (True and True)
-print (30<29 and 101001010101<1)
+print (30 < 29 and 101001010101 < 1)
 print (True or True)
-print ( 364>45 and 23444<33 and 47574>1 and 5065>1234 )
-print (393>2 True and False)
+print ( 364>45 and 23444<33 and 47574 > 1 and 5065 > 1234 )
+print (True and False)
 
 
 #2
