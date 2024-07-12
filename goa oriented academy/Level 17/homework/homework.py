@@ -1,0 +1,6 @@
+print(150 + 15)
+print(150 - 15)
+print(15 - 150)
+print(150 ** 15)
+print(150 * 15)
+print( 15/150)
