@@ -1,5 +1,5 @@
 #we want to paint a house
-from turtle import  * 
+from turtle import  
 
 
 color("red")
