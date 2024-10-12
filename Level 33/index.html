@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Demo Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+        h1, h2 {
+            color: #4A4A4A;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML ელემენტების დემონსტრაცია</h1>
+
+    <section>
+        <h2>სურათები (Images)</h2>
+        <img src="https://via.placeholder.com/300" alt="დემოს სურათი" width="300">
+    </section>
+
+    <section>
+        <h2>ბმულები (Links)</h2>
+        <a href="https://www.example.com" target="_blank">ეს არის ბმული</a>
+    </section>
+
+    <section>
+        <h2>ტექსტის ფორმატირება (Text Formatting)</h2>
+        <p>
+            <strong>მნიშვნელოვანი ტექსტი</strong>, 
+            <em>მხოლოდ ხაზგასმული ტექსტი</em>, 
+            <u>ქვედა ხაზით დაწერილი</u>.
+        </p>
+    </section>
+
+    <section>
+        <h2>სია (Lists)</h2>
+        <ul>
+            <li>პუნქტი 1</li>
+            <li>პუნქტი 2</li>
+        </ul>
+        <ol>
+            <li>პუნქტი 1</li>
+            <li>პუნქტი 2</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>მოსახლეობის ცხრილები (Tables)</h2>
+        <table>
+            <tr>
+                <th>სვეტი 1</th>
+                <th>სვეტი 2</th>
+            </tr>
+            <tr>
+                <td>მონაცემი 1</td>
+                <td>მონაცემი 2</td>
+            </tr>
+            <tr>
+                <td>მონაცემი 3</td>
+                <td>მონაცემი 4</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>ფორმები (Forms)</h2>
+        <form action="/submit" method="post">
+            <label for="name">სახელი:</label>
+            <input type="text" id="name" name="name" required>
+            <input type="submit" value="გაგზავნა">
+        </form>
+    </section>
+
+    <section>
+        <h2>სპეციალური სიმბოლები (Special Characters)</h2>
+        <p>სპეციალური სიმბოლები: &nbsp; (ვიზუალური სივრცე), &lt; (წამყვანი ნაკლებობა), &gt; (წამყვანი მატება), &amp; (და).</p>
+    </section>
+
+    <section>
+        <h2>მულტიმედია (Multimedia)</h2>
+        <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            თქვენი ბრაუზერი არ უჭერს მხარს ვიდეოს.
+        </video>
+
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            თქვენი ბრაუზერი არ უჭერს მხარს აუდიოს.
+        </audio>
+    </section>
+
+</body>
+</html>

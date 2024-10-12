@@ -1,4 +1,4 @@
-<<<<<<<< HEAD:Level 15/homework/homework.py
+
 print(True or False)
 print(36 > 12 and 59624 < 1000)
 print(False and True)
@@ -11,7 +11,7 @@ print ( 364>45 and 23444<33 and 47574 > 1 and 5065 > 1234 )
 print (True and False)
 #3
 #and ze ro gaketeb true and false yoveltvis gamoitas false magram to true and true ari gamoitans trues rac shexeba true or false yoveltvis gamoitans trues  to ese ar ari:false or false mashin gamoitans false
-========
+
 print(True or False)
 print(36 > 12 and 59624 < 1000)
 print(False and True)
@@ -33,5 +33,3 @@ print ( good job!)
 
 #3
 #and ze ro gaketeb true and false yoveltvis gamoitas false magram to true and true ari gamoitans trues rac shexeba true or false yoveltvis gamoitans trues  to ese ar ari:false or false mashin gamoitans false
->>>>>>>> b6ab4058f6252775af928faf550c5c826a0b10ff:goa oriented academy/Level 15/homework/homework.py
-#oki yasna davamtavre da paka :>
