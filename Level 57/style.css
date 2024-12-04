@@ -1,0 +1,50 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+
+.square1 {
+    background-color: red;
+}
+.square1:hover {
+    transform: scale(1.2);
+    background-color: #ff6666;
+}
+
+
+.square2 {
+    background-color: blue;
+}
+.square2:hover {
+    transform: rotate(45deg);
+    background-color: #6666ff;
+}
+.square3 {
+    background-color: green;
+}
+.square3:hover {
+    transform: translateX(100px);
+    background-color: #66ff66;
+}
+
+
+.square4 {
+    background-color: yellow;
+}
+.square4:hover {
+    transform: skewX(20deg);
+    background-color: #ffff66;
+}
